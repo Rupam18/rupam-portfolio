@@ -9,7 +9,7 @@ export default function Home() {
       <section className="h-screen flex items-center justify-center">
         <div className="max-w-5xl mx-auto px-6 text-center">
         <Image
-          src="/mypic.jpg"
+          src="/mypic.jpeg"
           alt="Rupam Sarangi"
           width={160}
           height={160}

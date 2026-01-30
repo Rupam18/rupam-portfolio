@@ -1,11 +1,20 @@
+import Image from "next/image";
 export default function Home() {
   return (
     <main className="bg-slate-900 text-white">
 
 
       {/* HERO */}
+
       <section className="h-screen flex items-center justify-center">
         <div className="max-w-5xl mx-auto px-6 text-center">
+        <Image
+          src="/mypic.jpg"
+          alt="Rupam Sarangi"
+          width={160}
+          height={160}
+          className="rounded-full mx-auto mb-6 border-4 border-slate-700"
+/>
 
           <h1 className="text-5xl font-bold">
             Rupam Kumar Sarangi

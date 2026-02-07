@@ -87,6 +87,14 @@ export default function Home() {
       <p className="text-sm text-slate-500">Salesforce • Apex • SOQL</p>
     </div>
 
+  <div className="bg-slate-800 p-6 rounded-xl">
+      <h3 className="text-xl font-semibold mb-2">Saas-Platform</h3>
+      <p className="text-slate-400 mb-4">
+       JWT-secured multi-tenant SaaS task platform
+      </p>
+      <p className="text-sm text-slate-500">Java .Spring Boot .JWT .PostgreSQL</p>
+    </div>
+
   </div>
 </section>
 <section className="py-24 max-w-5xl mx-auto px-6 text-center">
